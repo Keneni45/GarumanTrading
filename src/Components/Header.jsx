@@ -3,6 +3,7 @@ import "./header.css";
 import { FaBars } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.jpg";
+import Dropdown from "./Dropdown";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,9 +48,10 @@ export default function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/products" className="link-header">
+                      Products
+                      {/* <Link to="/products" className="link-header">
                         Products
-                      </Link>
+                      </Link> */}
                     </li>
                     <li>
                       <Link to="/about" className="link-header">
@@ -78,8 +80,11 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link to="/products" className="link-header">
+                {/* <Link to="/products" className="link-header">
                   Product
+                </Link> */}
+                <Link to="/partner" className="link-header">
+                  Partner
                 </Link>
               </li>
               <li>

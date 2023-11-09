@@ -1,0 +1,23 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+.home-p {
+  padding: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .home {
+    margin-bottom: 0;
+    height: max-content;
+  }
+  .home-p {
+    margin-left: 10px;
+    color: #ffffff;
+    height: 100vh;
+    margin-right: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding: 0;
+  }
+}

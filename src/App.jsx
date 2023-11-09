@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -9,6 +8,7 @@ function App() {
     <div>
       <Router>
         <Header />
+
         <AnimatedRoute />
       </Router>
 

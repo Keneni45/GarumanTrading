@@ -1,0 +1,13 @@
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+.partner-container {
+  background-color: rgb(252, 252, 252);
+  height: 30vh;
+  width: 20vw;
+  margin: 20px;
+  /* margin-left: 50vw; */
+  border-radius: 25px;
+  box-shadow: -1px 4px 20px -6px rgba(85, 67, 67, 0.75);
+}
