@@ -10,9 +10,7 @@ export default function Partner() {
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}>
       <div className="box">
-        <div className="partner-container">
-          <img src={im} alt="" />
-        </div>
+        <div className="partner-container"></div>
         <div className="partner-container"></div>
         <div className="partner-container"></div>
       </div>
