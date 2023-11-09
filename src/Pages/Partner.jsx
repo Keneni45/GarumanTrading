@@ -1,7 +1,6 @@
 import React from "react";
 import "./partner.css";
 import { motion } from "framer-motion";
-import im from "../assets/im.jpg";
 
 export default function Partner() {
   return (
