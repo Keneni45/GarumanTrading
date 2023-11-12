@@ -1,0 +1,30 @@
+.navbar {
+  height: 10vh;
+  background-color: rgb(71, 121, 24);
+  display: flex;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 90vw;
+  /* margin-right: 2rem; */
+  justify-content: flex-end;
+}
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+.nav-item a:hover {
+  background-color: blue;
+}
