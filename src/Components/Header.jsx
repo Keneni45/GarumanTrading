@@ -3,7 +3,6 @@ import "./header.css";
 import { FaBars } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.jpg";
-import Dropdown from "./Dropdown";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
